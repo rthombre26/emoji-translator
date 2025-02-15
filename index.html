@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Translator 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <header class="hero">
+      <h1>Translate Your Text into Emojis! 🎉</h1>
+      <p>Turn your words into emoji magic in one click!</p>
+    </header>
+
+    <!-- Input Section -->
+    <section class="input-section">
+      <textarea id="input-text" placeholder="Type anything... e.g., ‘Let’s party tonight!’"></textarea>
+      <div class="options">
+        <label for="tone">Tone:</label>
+        <select id="tone">
+          <option value="normal">Normal ✨</option>
+          <option value="genz">Gen Z 🤪</option>
+          <option value="shakespearean">Shakespearean 📜</option>
+          <option value="poetic">Poetic 🎭</option>
+        </select>
+        <label for="density">Emoji Density:</label>
+        <select id="density">
+          <option value="low">Low 🔠</option>
+          <option value="medium">Medium 🙂</option>
+          <option value="high">High 🤯</option>
+        </select>
+      </div>
+      <button id="translate-btn">🚀 Turn into Emojis!</button>
+    </section>
+
+    <!-- Output Section -->
+    <section class="output-section">
+      <div id="output-text"></div>
+      <button id="copy-btn">📋 Copy to Clipboard</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ and 😜 by Rashmi Thombre</p>
+      <p><a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

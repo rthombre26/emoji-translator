@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Input Section */
+.input-section {
+  margin: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.options select {
+  padding: 5px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#translate-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#translate-btn:hover {
+  background: #ff4a3d;
+}
+
+/* Output Section */
+.output-section {
+  margin-top: 20px;
+}
+
+#output-text {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+#copy-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#copy-btn:hover {
+  background: #45a049;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
